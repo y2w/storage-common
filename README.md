@@ -1,4 +1,4 @@
-使用一套API操作本地文件文件系统/阿里云OSS/go-fastdfs(https://github.com/sjqzhang/go-fastdfs)分布式文件系统，使用spring boot方式自动注入；
+使用一套API操作本地文件文件系统/阿里云OSS/go-fastdfs( https://github.com/sjqzhang/go-fastdfs ) 分布式文件系统，使用spring boot方式自动注入；
 注入Storage即可
 
 本地文件系统配置
