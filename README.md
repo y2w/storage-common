@@ -3,7 +3,7 @@
 
 1.nginx配置(nginx.conf)
 
-server {
+    server {
         listen       8181;
         server_name  localhost;
 
@@ -64,7 +64,7 @@ server {
     
     
 2.  yml配置指向nginx的ip以及端口
-
+```yml
 storage:
   active: filesystem
   fastdfs: 
