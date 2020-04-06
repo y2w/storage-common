@@ -14,7 +14,7 @@
           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         
           proxy_set_header Host diyhome-xplan.oss-cn-qingdao.aliyuncs.com;
-          proxy_pass http://diyhome-xplan.oss-cn-qingdao.aliyuncs.com/;
+          proxy_pass http://127.0.0.1/;
         }
 
 	      location ~.*\.(html|shtml|htm|htc|xml|mp3|gif|jpg|png|bmp|swf|css|js)$ {
