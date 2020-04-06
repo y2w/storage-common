@@ -1,0 +1,6 @@
+com.jidian.msa.storage.StorageFactory=\
+com.jidian.msa.storage.aliyun.AliyunStorageFactory,\
+com.jidian.msa.storage.fastdfs.FastdfsStorageFactory,\
+com.jidian.msa.storage.filesystem.FileSystemStorageFactory
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jidian.msa.storage.autoconfigure.StorageAutoConfiguration

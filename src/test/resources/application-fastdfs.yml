@@ -1,0 +1,16 @@
+storage:
+  active: fastdfs
+  fastdfs: 
+    url: http://127.0.0.1
+    group: group2
+    support_group_manage: false 
+  filesystem:
+    path: F:\test\data
+    url: http://localhost:8080
+  aliyun:
+    bucketName: 
+    endpoint: 
+    accessKeyId: 
+    accessKeySecret: 
+    requestTimeoutEnabled: true
+    expiration: 600
